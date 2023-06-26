@@ -2,7 +2,7 @@
 
 In recent years, Transformer has achieved remarkable results in computer vision. Its built-in attention layers can effectively model the global dependency relationships of images by transforming image features into token forms as inputs to the Transformer. This paradigm has become deeply ingrained in the community. However, it comes at a high computational cost. To address this issue, we propose Token Masked Pose Transformers are Efficient Learners (tmpose) inspired by the concept of Masked Image Modeling (MIM) in self-supervised learning. To construct an efficient Transformer network for pose estimation, we apply semantic-level masking to the tokens in the network. Additionally, we introduce three different masking methods. Through these simple techniques, we have achieved impressive results. We observed negligible accuracy loss on the COCO Validation dataset while reducing the computational complexity measured in GFLOPsT by 60%. Furthermore, we conducted tests on the MPII dataset, where we achieved competitive results.
 
-![image-20230626174808092](C:\Users\ZSTULI\AppData\Roaming\Typora\typora-user-images\image-20230626174808092.png)
+![image-20230626174808092](./framework.jpg)
 
 The contributions of this work are summarized as follows:
 
