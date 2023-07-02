@@ -12,7 +12,7 @@ The contributions of this work are summarized as follows:
 
 - We conducted experiments on public benchmark datasets, and our TMPose achieved highly competitive results in speed and accuracy. Specifically, while minimizing the loss to a minimal extent, our TMPose exhibited a 60% reduction in GFLOPsT (the computational complexity of the Transformer).
 
-# News!
+  # News!
 - [2023.06.05] Our paper ''CSIT: Channel Spatial Integrated Transformer for human pose estimation'' has been accpeted by **IET Image Processing**. 
 - [2023.06.25] Our paper ''Full Scale-Aware Balanced High-Resolution Network for Multi-Person Pose Estimation'' has been accpeted by **CMC-Computers Materials & Continua**.
 - [2023.06.27] The codes (train and test) for tmpose are released! If you find this repository useful please give it a star 🌟.
