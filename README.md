@@ -1,3 +1,8 @@
+## News!
+- [2022.06.05] Our paper ''CSIT: Channel Spatial Integrated Transformer for human pose estimation'' has been accpeted by **IET Image Processing**. If you find this paper useful please cite it. 
+- [2021.06.25] Our paper ''Full Scale-Aware Balanced High-Resolution Network for Multi-Person Pose Estimation'' has been accpeted by **CMC-Computers Materials & Continua**. If you find this paper useful please cite it. 
+- [2021.06.27] The codes (train and test) for tmpose are released! If you find this repository useful please give it a star 🌟.
+
 # Token Masked Pose Transformer are Efficient Learner
 
 In recent years, Transformer has achieved remarkable results in computer vision. Its built-in attention layers can effectively model the global dependency relationships of images by transforming image features into token forms as inputs to the Transformer. This paradigm has become deeply ingrained in the community. However, it comes at a high computational cost. To address this issue, we propose Token Masked Pose Transformers are Efficient Learners (tmpose) inspired by the concept of Masked Image Modeling (MIM) in self-supervised learning. To construct an efficient Transformer network for pose estimation, we apply semantic-level masking to the tokens in the network. Additionally, we introduce three different masking methods. Through these simple techniques, we have achieved impressive results. We observed negligible accuracy loss on the COCO Validation dataset while reducing the computational complexity measured in GFLOPsT by 60%. Furthermore, we conducted tests on the MPII dataset, where we achieved competitive results.
